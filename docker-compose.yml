@@ -7,7 +7,7 @@ services:
     build: ./db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: oradba
+      MYSQL_ROOT_PASSWORD: PSWD
     volumes:
       - ./mysql_files:/var/lib/mysql
 
